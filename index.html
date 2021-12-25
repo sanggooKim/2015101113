@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My food Allergy</title>
+  <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/index.html"><img src="/images/로고.png" alt="logo"></a>
+      <ul>
+        <li><a href="javascript:()" onclick="showpopup();">Contect</a></li>
+        <li><a href="/sub2.html">Impormation</a></li>
+        <li><a href="/sub1.html">Type of food</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <div class="intro"><img src="/images/산당_배너.png" alt="01"></div>
+    <div class="intro_01">
+      <div class="ch_im"><img src="/images/캐릭터_임포.png" alt="02"></div>
+      <div class="title_01">
+        <span class="light">My food Allergy</span>
+        <span class="bold">Impormation</span>
+      </div>
+      <div class="text">
+        My food Allergy 는 인종 성별에 상관없이 생기는 9가지 종류의
+        <br>식품 알러지에 대한 정보를 알 수 있는 사이트 입니다.
+        <br>식품 알레르기는 비 알레르기성 식품 반응과 다양한 증상이
+        <br>서로 겹치는 경우가 많기 때문에 식품 알레르기를 감별하기 어려울 수 있습니다.
+        <br>그렇기에 정보를 자세하게 확인하고 피해야할 음식을 파악하는 것을
+        <br>My food Allergy의 도움을 받길 권장합니다.
+      </div>
+    </div>
+
+    <div class="intro_02">
+      <div class="ch_im"><img src="/images/캐릭터_디스크립.png" alt="03"></div>
+      <div class="title_01">
+        <span class="light">My food Allergy</span>
+        <span class="bold">Description</span>
+      </div>
+      <div class="text">
+        전 세계적으로 5억 2천만 명이 식품 알레르기로 고통을 겪고 있습니다.
+        <br>많은 환자들이 한 가지에서 세 가지 식품에 증상이 나타납니다.
+        <br>식품 알레르기는 종종 실제 유병률보다
+        <br>환자 스스로 진단하여 본인이 직접 보고하는 경우가 훨씬 많으므로
+        <br>식품 알레르기가 있는지 확인하거나 가능성을 배제하기 위해서는
+        <br>임상 평가 및 진단 검사와 함께 환자 증상에 대한 이력을
+        <br>면밀히 관찰하는 것이 중요합니다.
+      </div>
+    </div>
+
+    <div class="intro_03">
+      <div class="ch_im"></div>
+      <div class="title_01">
+        <span class="light">Type of</span>
+        <span class="bold">Food</span>
+      </div>
+      <div class="im_ft">
+        <img src="/images/메인_푸드타입.png" alt="04">
+      </div>
+    </div>
+  </section>
+  <footer>
+    Made by Sangwoo Kim from Web Media Design Class, 2021
+  </footer>
+
+  <div class="popup" id="popup">
+    <div class="blanket"></div>
+    <div class="content">
+      <h2>현재 증상을 메일로 문의하세요!</h2>
+      <form action="">
+        <div class="row">
+          <div class="item">
+            <input type="text" placeholder="증상">
+          </div>  
+          <div class="item">  
+            <input type="text" placeholder="먹은 음식">
+          </div>
+          <div class="item">  
+            <input type="text" placeholder="문의 내용">
+          </div>
+        </div>
+        <button class="signup" onclick="hidePopup();">SEND</button>
+        <button class="close" onclick="hidePopup();">close</button>  
+      </form>
+    </div>
+  </div>
+  
+  <script src="./script.js" type="text/javascript"></script>
+
+</body>
+</html>
